@@ -24,8 +24,8 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    movie.title = "Harry Potter and the Sorcerer's Stone"
-    movie.director = "Chris Columbus"
+    m.title = "Harry Potter and the Sorcerer's Stone"
+    m.director = "Chris Columbus"
   end
 end
 
