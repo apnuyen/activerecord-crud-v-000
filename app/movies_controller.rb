@@ -24,8 +24,8 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m.title = "Harry Potter and the Sorcerer's Stone"
-    m.director = "Chris Columbus"
+    m.title = "Home Alone"
+    m.release_date = 1990
   end
 end
 
